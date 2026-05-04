@@ -2,7 +2,7 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "1.0",
-	"FriendlyName": "VanLaerCasper",
+	"FriendlyName": "VanLaerCasperZombie",
 	"Description": "",
 	"Category": "Game Features",
 	"CreatedBy": "Casper van Laer",
@@ -17,7 +17,7 @@
 	"Installed": false,
 	"Modules": [
 		{
-			"Name": "VanLaerCasperRuntime",
+			"Name": "VanLaerCasperZombieRuntime",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}

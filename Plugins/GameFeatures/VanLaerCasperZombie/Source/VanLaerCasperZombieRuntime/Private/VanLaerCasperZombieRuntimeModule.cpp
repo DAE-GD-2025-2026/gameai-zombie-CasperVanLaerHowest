@@ -1,16 +1,16 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "VanLaerCasperRuntimeModule.h"
+#include "VanLaerCasperZombieRuntimeModule.h"
 
-#define LOCTEXT_NAMESPACE "FVanLaerCasperRuntimeModule"
+#define LOCTEXT_NAMESPACE "FVanLaerCasperZombieRuntimeModule"
 
-void FVanLaerCasperRuntimeModule::StartupModule()
+void FVanLaerCasperZombieRuntimeModule::StartupModule()
 {
 	// This code will execute after your module is loaded into memory;
 	// the exact timing is specified in the .uplugin file per-module
 }
 
-void FVanLaerCasperRuntimeModule::ShutdownModule()
+void FVanLaerCasperZombieRuntimeModule::ShutdownModule()
 {
 	// This function may be called during shutdown to clean up your module.
 	// For modules that support dynamic reloading, we call this function before unloading the module.
@@ -18,4 +18,4 @@ void FVanLaerCasperRuntimeModule::ShutdownModule()
 
 #undef LOCTEXT_NAMESPACE
 
-IMPLEMENT_MODULE(FVanLaerCasperRuntimeModule, VanLaerCasperRuntime)
+IMPLEMENT_MODULE(FVanLaerCasperZombieRuntimeModule, VanLaerCasperZombieRuntime)

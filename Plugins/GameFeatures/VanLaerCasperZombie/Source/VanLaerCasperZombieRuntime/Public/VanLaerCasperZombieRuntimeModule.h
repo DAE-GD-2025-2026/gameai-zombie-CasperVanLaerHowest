@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
-class FVanLaerCasperRuntimeModule : public IModuleInterface
+class FVanLaerCasperZombieRuntimeModule : public IModuleInterface
 {
 public:
 	//~IModuleInterface

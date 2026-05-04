@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class VanLaerCasperRuntime : ModuleRules
+public class VanLaerCasperZombieRuntime : ModuleRules
 {
-	public VanLaerCasperRuntime(ReadOnlyTargetRules Target) : base(Target)
+	public VanLaerCasperZombieRuntime(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		
