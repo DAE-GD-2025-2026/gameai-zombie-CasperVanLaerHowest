@@ -10,6 +10,7 @@ public class VanLaerCasperZombieRuntime : ModuleRules
 		
 		PublicIncludePaths.AddRange(
 			new string[] {
+				ModuleDirectory,
 				// ... add public include paths required here ...
 			}
 			);
@@ -38,7 +39,9 @@ public class VanLaerCasperZombieRuntime : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
-				"AIModule"
+				"AIModule",
+				"NavigationSystem",
+				"GameAI_Zombie"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
